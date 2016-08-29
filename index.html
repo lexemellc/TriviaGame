@@ -1,16 +1,125 @@
+<!-- Trivia questions are generated from the following webpage:
+http://www.proprofs.com/quiz-school/story.php?title=rutgers-trivia-game -->
+
+
 <!DOCTYPE html>
 	<html>
 	<head>
 		<title>Trivia Game</title>
 
 		<!-- Link in CSS Files -->
-		<link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
-		<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 	</head>
 	<body>
 
-		
+		<!-- Start of the game -->
+		<div id = start_container>
+			<!-- Static Game Logo -->
+			<h1 class = "logo">Rutgers Trivia</h1>
+
+			<button id = start_button>Start</button>
+		</div>
+
+
+		<!-- During Gameplay Container -->
+		<div id = mid_game_container>
+			<!-- Static Game Logo -->
+			<h1 class = "logo">Rutgers Trivia</h1>
+
+			<!-- Game Timer -->
+			<h1 id = "timer_line">Time Remaining: <span id = "timer_number">30 Seconds</span></h1>
+
+
+
+			<!-- Game Questions -->
+
+			<h1>1. Rutgers, The State University of New Jersey, was chartered in what year?</h1>
+			<!-- 1776 -->
+				<input type="radio" name="q1" value="1667">1667 
+				<input type="radio" name="q1" value="1776">1776 
+				<input type="radio" name="q1" value="1789">1789 
+				<input type="radio" name="q1" value="1838">1838 
+				
+
+			<h1>2. What was the college's original name?</h1>
+			<!-- Queens College -->
+				<input type="radio" name="q2" value="Rutgers, The Colonial College">Rutgers, The Colonial College
+				<input type="radio" name="q2" value="Kings College">Kings College 
+				<input type="radio" name="q2" value="Queens College">Queens College 
+				<input type="radio" name="q2" value="New Jersey University">New Jersey University 
+
+
+
+			<h1>3. What is the official student newspaper of Rutgers University?</h1>
+			<!-- The Daily Targum -->
+				<input type="radio" name="q3" value="The Daily Targum">The Daily Targum 
+				<input type="radio" name="q3" value="Rutgers Daily">Rutgers Daily 
+				<input type="radio" name="q3" value="The Medium">The Medium 
+				<input type="radio" name="q3" value="The Rutgers Times">The Rutgers Times 
+
+
+			<h1>4. How many students attend Rutgers as undergraduates?</h1>
+			<!-- Over 48,000 -->
+				<input type="radio" name="q4" value="25,000">25,000 
+				<input type="radio" name="q4" value="35,000">35,000 
+				<input type="radio" name="q4" value="40,000">40,000
+				<input type="radio" name="q4" value="40,000">45,000 
+				<input type="radio" name="q4" value="Over 48,000">Over 48,000 
+
+
+			<h1>5. Which of the following is not a campus at Rutgers?</h1>
+			<!-- University Drive  -->
+				<input type="radio" name="q5" value="Cook/Douglass">Cook/Douglass 
+				<input type="radio" name="q5" value="Livingston">Livingston 
+				<input type="radio" name="q5" value="College Avenue">College Avenue 
+				<input type="radio" name="q5" value="Busch">Busch
+				<input type="radio" name="q5" value="University Drive">University Drive 
+			
+			<h1>6. Rutgers is the birthplace of college football, against whom was the first game?</h1>
+			<!-- Princeton -->
+				<input type="radio" name="q6" value="Penn State">Penn State 
+				<input type="radio" name="q6" value="Harvard">Harvard 
+				<input type="radio" name="q6" value="Yale">Yale 
+				<input type="radio" name="q6" value="Princeton">Princeton 
+				
+
+			<h1>7. Rutgers has campuses in 3 different cities, which of these is not one of them?</h1>
+			<!-- Jersey City -->
+				<input type="radio" name="q7" value="New Brunswick">New Brunswick 
+				<input type="radio" name="q7" value="Camden">Camden 
+				<input type="radio" name="q7" value="Newark">Newark 
+				<input type="radio" name="q7" value="Jersey City">Jersey City
+
+			<h1>8. Which of the following campuses features an all women's college?</h1>
+			<!-- Cook/Douglass -->
+				<input type="radio" name="q8" value="Busch">Busch 
+				<input type="radio" name="q8" value="Livingston">Livingston 
+				<input type="radio" name="q8" value="College Avenue">College Avenue 
+				<input type="radio" name="q8" value="Cook/Douglass">Cook/Douglass 
+
+			<h1>9. As of 2016, how much is in-state tuition at Rutgers? (excluding other expenses)</h1>
+			<!-- $11,750 -->
+				<input type="radio" name="q9" value="$7,500">$7,500 
+				<input type="radio" name="q9" value="$10,250">$10,250 
+				<input type="radio" name="q9" value="$11,750">$11,750 
+				<input type="radio" name="q9" value="$13,500">$13,500
+
+			<h1>10. Dining at the Grease Trucks, how many calories does a Fat Darrell contain?</h1>
+			<!-- Over 1,700 -->
+				<input type="radio" name="q10" value="950">950
+				<input type="radio" name="q10" value="1,250">1,250
+				<input type="radio" name="q10" value="1,500">1,500 
+				<input type="radio" name="q10" value="Over 1,700">Over 1,700<br>
+
+
+			<button id = done_button>Done!</button>
+			
+
+
+		</div>
+
 
 
 
@@ -18,7 +127,7 @@
 		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 
 		<!-- Link in JavaScript -->
-		<script src="assets/javascript/game.js"></script>
+		<script src="assets/javascript/app.js"></script>
 		
 	</body>
 </html>
