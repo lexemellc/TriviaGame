@@ -1,6 +1,6 @@
-<!-- Trivia questions are generated from the following webpage:
-http://www.proprofs.com/quiz-school/story.php?title=rutgers-trivia-game -->
-
+<!-- @author: Thomas Thompson
+@github: tomtom28
+@comment: HW 5 -->
 
 <!DOCTYPE html>
 	<html>
@@ -29,9 +29,7 @@ http://www.proprofs.com/quiz-school/story.php?title=rutgers-trivia-game -->
 			<h1 class = "logo">Rutgers Trivia</h1>
 
 			<!-- Game Timer -->
-			<h1 id = "timer_line">Time Remaining: <span id = "timer_number">30 Seconds</span></h1>
-
-
+			<h1 id = "timer_line">Time Remaining: <span id = "timer_number">60 Seconds</span></h1>
 
 			<!-- Game Questions -->
 
@@ -111,15 +109,32 @@ http://www.proprofs.com/quiz-school/story.php?title=rutgers-trivia-game -->
 				<input type="radio" name="q10" value="950">950
 				<input type="radio" name="q10" value="1,250">1,250
 				<input type="radio" name="q10" value="1,500">1,500 
-				<input type="radio" name="q10" value="Over 1,700">Over 1,700<br>
+				<input type="radio" name="q10" value="Over 1,700">Over 1,700
+
+
+				<br>
 
 
 			<button id = done_button>Done!</button>
-			
-
 
 		</div>
 
+
+
+
+		<!-- End of the game -->
+		<div id = end_container>
+			<!-- Static Game Logo -->
+			<h1 class = "logo">Rutgers Trivia</h1>
+
+			<h1 id = "done">All Done!</h1>
+			<br>
+
+			<h1>Correct Answers: <span id = "correct_answers">0</span></h1>
+			<h1>Incorrect Answers: <span id = wrong_answers>0</span></h1>
+			<h1>Unanswered: <span id = "unanswered">0</span></h1>
+		</div>
+			
 
 
 
