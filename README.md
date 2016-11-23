@@ -1,9 +1,9 @@
 # Rutgers Trivia Game
 A Trivia Game with multiple choice questions about Rutgers history.
 
-The page uses jQuery and the JavaScript `setInterval()` function to countdown from 1 minute, timing the quiz.
-
 Please checkout out the deployed app on Heroku [here](https://rutgers-trivia-game.herokuapp.com/)!
+
+The page uses jQuery and the JavaScript `setInterval()` function to countdown from 1 minute, timing the quiz.
 
 
 # Screenshots
